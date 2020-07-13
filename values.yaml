@@ -1,5 +1,5 @@
 ## TrilioVault Operator
-registry: gcr.io/amazing-chalice-243510
+registry: eu.gcr.io/amazing-chalice-243510
 
 operator-webhook-init:
   repository: operator-webhook-init
@@ -7,7 +7,7 @@ operator-webhook-init:
 k8s-triliovault-operator:
   repository: k8s-triliovault-operator
 
-tag: master
+tag: v1.0.0
 
 image:
   pullPolicy: Always

@@ -15,11 +15,13 @@ This operator is to manage the lifecycle of TrilioVault Backup/Recovery solution
 To install the chart with the operator name `trilio`:
 
 ```bash
+git clone https://github.com/trilioData/triliovault--operator.git
+
 # For helm version 2
-helm install --name trilio k8s-triliovault-operator
+helm install --name trilio ./triliovault--operator
 
 # For helm version 3
-helm install --name-template trilio k8s-triliovault-operator
+helm install --name-template trilio ./triliovault--operator
 ```
 
 The command deploys the K8s-triliovault-operator with the default configuration.
